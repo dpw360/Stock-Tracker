@@ -1,47 +1,45 @@
 { 
-    "settings" : {
-        "viewStock": {
-            "ticker": true,
-            "price": true,
-            "%change": true,
-            "open": true,
-            "close": true,
-            "high": true,
-            "low": true,
-            "volume": false,
-            "weekTable": true,
-            "monthTable": false,
-            "yearTable": false
-        },
-    
-        "compareStock": {
-            "ticker": true,
-            "price": true,
-            "%change": true,
-            "open": true,
-            "close": true,
-            "high": true,
-            "low": true,
-            "volume": false,
-            "weekTable": true,
-            "monthTable": false,
-            "yearTable": false
-        },
+    "viewStock": {
+        "ticker": true,
+        "price": true,
+        "%change": true,
+        "open": true,
+        "close": true,
+        "high": true,
+        "low": true,
+        "volume": false,
+        "weekTable": true,
+        "monthTable": false,
+        "yearTable": false
+    },
 
-        "portfolio": {
-            "ticker": true,
-            "qOwned": true,
-            "totalOwnedValue": true,
-            "price": true,
-            "%change": true,
-            "open": true,
-            "close": true,
-            "high": true,
-            "low": true,
-            "volume": false,
-            "weekTable": true,
-            "monthTable": false,
-            "yearTable": false
-        }
+    "compareStock": {
+        "ticker": true,
+        "price": true,
+        "%change": true,
+        "open": true,
+        "close": true,
+        "high": true,
+        "low": true,
+        "volume": false,
+        "weekTable": true,
+        "monthTable": false,
+        "yearTable": false
+    },
+
+    "portfolio": {
+        "ticker": true,
+        "qOwned": true,
+        "totalOwnedValue": true,
+        "price": true,
+        "%change": true,
+        "open": true,
+        "close": true,
+        "high": true,
+        "low": true,
+        "volume": false,
+        "weekTable": true,
+        "monthTable": false,
+        "yearTable": false
     }
 }

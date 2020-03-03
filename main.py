@@ -1,3 +1,6 @@
+### IMPORTS ###
+import json
+
 # Displays a welcome message, only at the start of the program
 def welcome():
     print("Welcome to Stock Tracker!")
@@ -68,6 +71,9 @@ def stockInfo(stock):
 
 ### MAIN ###
 welcome()
+with open('settings.json') as settings:
+    settingsDict = json.load(settings)
+
 while True:
     command = input()
     parseCommand(command)
