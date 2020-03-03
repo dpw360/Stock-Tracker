@@ -10,7 +10,9 @@
         "volume": false,
         "weekTable": true,
         "monthTable": false,
-        "yearTable": false
+        "yearTable": false,
+        "qOwned": true,
+        "totalOwnedValue": true
     },
 
     "compareStock": {
